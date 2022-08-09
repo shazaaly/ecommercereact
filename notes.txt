@@ -1,0 +1,3 @@
+CSS rules to specify families
+
+font-family: 'Almarai', sans-serif;
