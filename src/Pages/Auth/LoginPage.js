@@ -28,10 +28,7 @@ export const LoginPage = () => {
             </Link>
           </label>
 
-
-
         </Col>
-
 
         <label className="mx-auto my-4">
           <Link to="/admin/allproducts" style={{ textDecoration: 'none' }}>

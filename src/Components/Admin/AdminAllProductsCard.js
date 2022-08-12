@@ -1,11 +1,12 @@
 import React from 'react'
 import { Col, Card } from 'react-bootstrap';
-import favoff from "../../../images/fav-off.png";
-import prod1 from "../../../images/prod1.png";
 import { Link } from 'react-router-dom';
-import rate from "../../../images/rate.png";
+import favoff from "../../images/fav-off.png"
+import rate from "../../images/rate.png";
+import prod1 from "../../images/prod1.png";
 
-export const ProductCard = () => {
+
+export const AdminAllProductsCard = () => {
   return (
     <Col xs="6" sm="6" md="4" lg="3" className="d-flex">
 
@@ -60,5 +61,7 @@ export const ProductCard = () => {
         </Card.Body>
       </Card>
     </Col>
+
+
   )
 }
