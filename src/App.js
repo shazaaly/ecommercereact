@@ -54,7 +54,6 @@ function App() {
           <Route path="/admin/addproduct" element={<AdminAddProductPage />} />
 
 
-
           {/* User/ */}
           <Route path="/user/allorders" element={<UserAllOrdersPage />} />
           <Route path="/user/favoriteproducts" element={<UserFavouriteProductsPage />} />
@@ -62,14 +61,6 @@ function App() {
           <Route path="/user/add-address" element={<UserAddAddressPage />} />
           <Route path="/user/edit-address" element={<UserEditAddessPage />} />
           <Route path="/user/profile" element={<UserProfilePage />} />
-
-
-
-
-
-
-
-
 
         </Routes>
       </BrowserRouter>
